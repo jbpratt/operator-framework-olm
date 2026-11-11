@@ -12,7 +12,7 @@ require (
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.14.0
 	github.com/mikefarah/yq/v3 v3.0.0-20201202084205-8846255d1c37
 	github.com/onsi/ginkgo/v2 v2.33.1
-	github.com/openshift/api v0.0.0-20261017003925-24b2699a9b32
+	github.com/openshift/api v0.0.0-20261023091600-9809689a2448
 	github.com/openshift/library-go v0.0.0-20261019145849-b3e46fec8a08
 	github.com/operator-framework/api v0.45.0
 	github.com/operator-framework/operator-lifecycle-manager v0.0.0-00010101000000-000000000000
@@ -158,7 +158,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/opencontainers/runtime-spec v1.3.0 // indirect
-	github.com/openshift/client-go v0.0.0-20261006222332-348fc1ca8bb1 // indirect
+	github.com/openshift/client-go v0.0.0-20261026144452-41e357d76bc8 // indirect
 	github.com/otiai10/copy v1.14.1 // indirect
 	github.com/otiai10/mint v1.6.3 // indirect
 	github.com/pandatix/go-abnf v0.5.3 // indirect
@@ -254,3 +254,7 @@ replace (
 	github.com/operator-framework/operator-lifecycle-manager => ./staging/operator-lifecycle-manager
 	github.com/operator-framework/operator-registry => ./staging/operator-registry
 )
+
+replace github.com/openshift/library-go => github.com/jbpratt/library-go v0.0.0-20261104182755-559bfefa1c38
+
+replace github.com/distribution/distribution/v3 => github.com/jbpratt/openshift-docker-distribution/v3 v3.1.2-0.20261104181011-ae4a99e3cfe4

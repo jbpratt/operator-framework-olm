@@ -18,8 +18,8 @@ require (
 	github.com/mitchellh/hashstructure/v2 v2.0.2
 	github.com/onsi/ginkgo/v2 v2.33.1
 	github.com/onsi/gomega v1.44.0
-	github.com/openshift/api v0.0.0-20261017003925-24b2699a9b32
-	github.com/openshift/client-go v0.0.0-20261006222332-348fc1ca8bb1
+	github.com/openshift/api v0.0.0-20261023091600-9809689a2448
+	github.com/openshift/client-go v0.0.0-20261026144452-41e357d76bc8
 	github.com/openshift/library-go v0.0.0-20261019145849-b3e46fec8a08
 	github.com/operator-framework/api v0.45.0
 	github.com/operator-framework/operator-registry v1.74.0
@@ -204,3 +204,7 @@ require (
 )
 
 retract v3.11.0+incompatible // https://github.com/operator-framework/operator-lifecycle-manager/issues/2253
+
+replace github.com/openshift/library-go => github.com/jbpratt/library-go v0.0.0-20261104182755-559bfefa1c38
+
+replace github.com/distribution/distribution/v3 => github.com/jbpratt/openshift-docker-distribution/v3 v3.1.2-0.20261104181011-ae4a99e3cfe4

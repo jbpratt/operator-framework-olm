@@ -683,12 +683,12 @@ github.com/opencontainers/image-spec/specs-go/v1
 # github.com/opencontainers/runtime-spec v1.3.0
 ## explicit
 github.com/opencontainers/runtime-spec/specs-go
-# github.com/openshift/api v0.0.0-20261017003925-24b2699a9b32
+# github.com/openshift/api v0.0.0-20261023091600-9809689a2448
 ## explicit; go 1.26.0
 github.com/openshift/api/config/v1
 github.com/openshift/api/config/v1alpha1
 github.com/openshift/api/config/v1alpha2
-# github.com/openshift/client-go v0.0.0-20261006222332-348fc1ca8bb1
+# github.com/openshift/client-go v0.0.0-20261026144452-41e357d76bc8
 ## explicit; go 1.26.0
 github.com/openshift/client-go/config/applyconfigurations/config/v1
 github.com/openshift/client-go/config/applyconfigurations/config/v1alpha1
@@ -708,7 +708,7 @@ github.com/openshift/client-go/config/informers/externalversions/internalinterfa
 github.com/openshift/client-go/config/listers/config/v1
 github.com/openshift/client-go/config/listers/config/v1alpha1
 github.com/openshift/client-go/config/listers/config/v1alpha2
-# github.com/openshift/library-go v0.0.0-20261019145849-b3e46fec8a08
+# github.com/openshift/library-go v0.0.0-20261019145849-b3e46fec8a08 => github.com/jbpratt/library-go v0.0.0-20261104182755-559bfefa1c38
 ## explicit; go 1.26.0
 github.com/openshift/library-go/pkg/crypto
 # github.com/operator-framework/api v0.45.0 => ./staging/api
@@ -2505,3 +2505,5 @@ sigs.k8s.io/yaml/kyaml
 # github.com/operator-framework/api => ./staging/api
 # github.com/operator-framework/operator-lifecycle-manager => ./staging/operator-lifecycle-manager
 # github.com/operator-framework/operator-registry => ./staging/operator-registry
+# github.com/openshift/library-go => github.com/jbpratt/library-go v0.0.0-20261104182755-559bfefa1c38
+# github.com/distribution/distribution/v3 => github.com/jbpratt/openshift-docker-distribution/v3 v3.1.2-0.20261104181011-ae4a99e3cfe4
